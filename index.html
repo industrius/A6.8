@@ -4,24 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
     <title>А6.8 Практика</title>
 </head>
 <body>
-    <h1>Прогрессбар</h1>
-    <br>
-    <br>
-    <div class="progress">
-      <div class="progress-bar bg-info progress-bar-striped" role="progressbar" style="width: 0%;"></div>
+  <div class="container">
+    <div class="row d-flex justify-content-center pt-5">
+      <div class="col-6 text-center">
+        <h1>Прогрессбар</h1>
+        <br>
+        <div class="progress">
+          <div class="progress-bar bg-info progress-bar-striped" role="progressbar" style="width: 0%;"></div>
+        </div>
+      </div>
     </div>
-    <br>
-    <button type="button" class="btn btn-dark b1">+1%</button>
-    <button type="button" class="btn btn-dark b2">+3%</button>
-    <button type="button" class="btn btn-dark b3">+7%</button>
-    <button type="button" class="btn btn-dark reset">Reset</button>
+    <div class="row d-flex justify-content-center pt-5">
+        <div class="col-6 d-flex justify-content-around">
+          <button type="button" class="btn btn-dark b1">+1%</button>
+          <button type="button" class="btn btn-dark b2">+3%</button>
+          <button type="button" class="btn btn-dark b3">+7%</button>
+          <button type="button" class="btn btn-dark reset">Reset</button>
+        </div>  
+    </div>
+  </div>
 
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/script.js"></script>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
